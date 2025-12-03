@@ -9,8 +9,6 @@ Este documento cobre o ciclo de vida de uma tarefa, desde a criação até a ent
 
 ---
 ## Sumário
-- [📘 Manual de Fluxo Git: Feature Branch Workflow](#-manual-de-fluxo-git-feature-branch-workflow)
-  - [Sumário](#sumário)
   - [PARTE 1: Fluxo Padrão](#parte-1-fluxo-padrão)
     - [Fase 1: Início e Desenvolvimento](#fase-1-início-e-desenvolvimento)
     - [Fase 2: Homologação (Enviando para QA)](#fase-2-homologação-enviando-para-qa)
@@ -186,4 +184,5 @@ execute:
     ```bash
     git checkout qa
     git reset --hard origin/main
+
     git push origin qa --force
