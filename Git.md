@@ -80,7 +80,7 @@ Use este passo a passo quando for iniciar uma nova tarefa.
     git pull origin main
 1. **Delete a branch da feature (ela já está na main):**
     ```bash
-    git branch -d feature/99-nova-funcionalidade
+    git branch -D feature/99-nova-funcionalidade
 ---
 
 ## PARTE 2: Solução de Problemas e Manutenção
@@ -186,3 +186,4 @@ execute:
     git reset --hard origin/main
 
     git push origin qa --force
+
