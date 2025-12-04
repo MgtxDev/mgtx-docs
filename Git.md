@@ -184,6 +184,6 @@ execute:
     ```bash
     git checkout qa
     git reset --hard origin/main
-
     git push origin qa --force
+
 
