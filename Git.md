@@ -42,7 +42,7 @@ Use este passo a passo quando for iniciar uma nova tarefa.
    git commit -m "feat: descricao do que foi feito"
 4. **Envie a branch para o GitHub: Isso garante que a branch apareça lá para criar o PR**
    ```bash
-   git push origin feature/99-nova-funcionalidade
+   git push origin feature/
 ### Fase 2: Homologação (Enviando para QA)
 **Objetivo:** Colocar seu código no servidor de QA para o usuário testar, sem "sujar" sua branch original.
 
@@ -125,7 +125,6 @@ O que fazer: Nunca corrija direto na branch qa.
 3. **Force o servidor a aceitar a versão do GitHub:**
     ```bash
     git reset --hard origin/qa
-    #Nota: Se houver problemas de permissão após isso, verifique as permissões da pasta (chmod/chown), mas geralmente o reset resolve o código.
 Isso apaga qualquer alteração manual feita direto no servidor e sincroniza com o repositório.
 <br><br>
 
@@ -185,3 +184,4 @@ execute:
     git checkout qa
     git reset --hard origin/main
     git push origin qa --force
+
