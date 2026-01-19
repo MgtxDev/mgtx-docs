@@ -55,7 +55,7 @@ Use este passo a passo quando for iniciar uma nova tarefa.
    ```bash
     git checkout qa
     git pull origin qa  # Garante que seu QA local está igual ao remoto
-    git merge feature/99-nova-funcionalidade
+    git merge feature/
 
     #Nota: Se abrir um editor de texto (Vim), digite :wq e pressione Enter.
 3. **Envie para o Servidor:**
@@ -184,4 +184,5 @@ execute:
     git checkout qa
     git reset --hard origin/main
     git push origin qa --force
+
 
