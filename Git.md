@@ -35,7 +35,7 @@ Use este passo a passo quando for iniciar uma nova tarefa.
    git pull origin main
 2. **Crie a branch da tarefa: Use um padrão de nome (ex: feature/numero-nome).**
    ```bash
-   git checkout -b feature/99-nova-funcionalidade
+   git checkout -b feature/
 3. **Desenvolva e Salve: Codifique e teste na sua máquina, depois salve o progresso.**
    ```bash
    git add .
@@ -184,5 +184,6 @@ execute:
     git checkout qa
     git reset --hard origin/main
     git push origin qa --force
+
 
 
