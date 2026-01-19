@@ -148,12 +148,12 @@ Isso apaga qualquer alteração manual feita direto no servidor e sincroniza com
     ```bash
     git checkout main
     git pull origin main
-    git checkout -b hotfix/descricao-do-erro
+    git checkout -b hotfix/
 2. **Fazer o ajuste → commit → push:**
     ```bash
     git add .
-    git commit -m "fix: descricao-do-erro"
-    git push origin hotfix/descricao-do-erro
+    git commit -m "fix: descricao-do-erro. closes #"
+    git push origin hotfix/
 3. **Criar PR para main:**<br>
 No GitHub:
     - Base: `main`.
@@ -184,6 +184,7 @@ execute:
     git checkout qa
     git reset --hard origin/main
     git push origin qa --force
+
 
 
 
