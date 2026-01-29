@@ -1,4 +1,4 @@
-## Gerenciamento de Risco
+## Gerenciamento de Riscos
 
 ### 🧾 Visão Geral
  
@@ -53,4 +53,5 @@ O menu **Gerenciamento de Risco** tem como objetivo identificar, registrar e aco
 | Data        | Versão  |                        Alteração                           | Autor          |
 |-------------|---------|------------------------------------------------------------|----------------|
 | 13/11/2025  | v1.0    | Criação inicial da documentação do gerenciamento de risco  | Vitor Medeiros |
+
 
