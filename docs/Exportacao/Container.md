@@ -112,3 +112,10 @@ assets/js/Exportacao/
    - Mensagem de sucesso inclui informação sobre o container
    - No módulo de **Containers**, verificar se o container foi criado
    - Abrir o container e verificar se os itens foram inseridos corretamente
+
+
+## Histórico de Versões
+| Data        | Versão  |                        Alteração                           | Autor          |
+|-------------|---------|------------------------------------------------------------|----------------|
+| 13/11/2025  | v1.0    | Criação inicial da documentação                            | Vitor Medeiros |
+
