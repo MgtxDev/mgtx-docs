@@ -196,9 +196,3 @@ execute:
 2. **Apagar as Branchs já mergeadas:**
     ```bash
     git fetch --prune
-
-
-
-
-
-
