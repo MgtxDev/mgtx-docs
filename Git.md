@@ -20,6 +20,7 @@ Este documento cobre o ciclo de vida de uma tarefa, desde a criação até a ent
     - [**Cenario C:** O Servidor de QA "quebrou" ou não atualizou](#cenario-c-o-servidor-de-qa-quebrou-ou-não-atualizou)
     - [**Cenario D:** Manutenção Periódica (Opcional)](#cenario-d-manutenção-periódica-opcional)
     - [**Cenario E:** Hotfix](#cenario-e-hotfix)
+    - [**Cenario F:** Limpar Branchs](#cenario-f-limpar-branchs)
 ---
 
 ## PARTE 1: Fluxo Padrão
@@ -184,6 +185,18 @@ execute:
     git checkout qa
     git reset --hard origin/main
     git push origin qa --force
+
+<br><br>
+
+### **Cenario F:** Limpar Branchs<br>
+**Quando fazer:** Quando fazer o merge da branch para main.
+1. **Listar as branchs:**
+    ```bash
+    git branch -a
+2. **Apagar as Branchs já mergeadas:**
+    ```bash
+    git fetch --prune
+
 
 
 
