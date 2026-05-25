@@ -79,9 +79,13 @@ Use este passo a passo quando for iniciar uma nova tarefa.
     ```bash
     git checkout main
     git pull origin main
-1. **Delete a branch da feature (ela já está na main):**
+2. **Delete a branch da feature (ela já está na main):**
     ```bash
     git branch -D feature/
+
+3. **Apagar as Branchs já mergeadas:**
+    ```bash
+    git fetch --prune
 ---
 
 ## PARTE 2: Solução de Problemas e Manutenção
