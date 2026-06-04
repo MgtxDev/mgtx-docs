@@ -82,7 +82,6 @@ Use este passo a passo quando for iniciar uma nova tarefa.
 2. **Delete a branch da feature (ela já está na main):**
     ```bash
     git branch -D feature/
-
 3. **Apagar as Branchs já mergeadas:**
     ```bash
     git fetch --prune
